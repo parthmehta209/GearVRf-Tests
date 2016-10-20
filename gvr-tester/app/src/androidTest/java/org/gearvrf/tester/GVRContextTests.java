@@ -70,6 +70,7 @@ public class GVRContextTests {
                 waiter.resume();
             }
         });
+
         waiter.await(GVRTestUtils.TEST_TIMEOUT);
     }
 
